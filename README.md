@@ -76,21 +76,17 @@ This FAQ Management System project is a perfect blend of backend development ski
    cd faq_project
 
 ## Create a virtual environment:
-      ```bash
       python -m venv venv
 
 ## Activate the virtual environment:
 
 ### On Windows:
-      ```bash
       venv\Scripts\activate
 
 ### On Mac/Linux:
-      ```bash
       source venv/bin/activate
 
 ## Install the dependencies:
-      ```bash
       pip install -r requirements.txt
 
 ## Set up Redis:
@@ -99,15 +95,12 @@ This FAQ Management System project is a perfect blend of backend development ski
 - If you haven't installed Redis yet, download and install Redis.
 
 ## Apply migrations:
-      ```bash
       python manage.py migrate
 
 ## Create a superuser (if you want to access the Django admin panel):
-      ```bash
       python manage.py createsuperuser
 
 ## Run the server:
-      ```bash
       python manage.py runserver
 
 - Visit http://127.0.0.1:8000 to access the project and http://127.0.0.1:8000/admin to access the admin panel.
@@ -120,7 +113,6 @@ This FAQ Management System project is a perfect blend of backend development ski
 Fetch a list of all FAQs.
 
 #### Example Request:
-      ```bash
       curl http://localhost:8000/api/faqs/
 
 #### Example Response:
@@ -136,7 +128,6 @@ Fetch a list of all FAQs.
 Fetch FAQs in Hindi.
 
 #### Example Request:
-      ```bash
       curl http://localhost:8000/api/faqs/?lang=hi
 
 ---

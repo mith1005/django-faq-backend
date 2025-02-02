@@ -72,24 +72,26 @@ This FAQ Management System project is a perfect blend of backend development ski
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/faq_project.git
+   git clone https://github.com/mith1005/faq_project.git
    cd faq_project
 
 ## Create a virtual environment:
-
-python -m venv venv
+      ```bash
+      python -m venv venv
 
 ## Activate the virtual environment:
 
 ### On Windows:
-venv\Scripts\activate
+      ```bash
+      venv\Scripts\activate
 
 ### On Mac/Linux:
-source venv/bin/activate
+      ```bash
+      source venv/bin/activate
 
 ## Install the dependencies:
-
-pip install -r requirements.txt
+      ```bash
+      pip install -r requirements.txt
 
 ## Set up Redis:
 
@@ -97,16 +99,16 @@ pip install -r requirements.txt
 - If you haven't installed Redis yet, download and install Redis.
 
 ## Apply migrations:
-
-python manage.py migrate
+      ```bash
+      python manage.py migrate
 
 ## Create a superuser (if you want to access the Django admin panel):
-
-python manage.py createsuperuser
+      ```bash
+      python manage.py createsuperuser
 
 ## Run the server:
-
-python manage.py runserver
+      ```bash
+      python manage.py runserver
 
 - Visit http://127.0.0.1:8000 to access the project and http://127.0.0.1:8000/admin to access the admin panel.
 
@@ -118,13 +120,14 @@ python manage.py runserver
 Fetch a list of all FAQs.
 
 #### Example Request:
-curl http://localhost:8000/api/faqs/
+      ```bash
+      curl http://localhost:8000/api/faqs/
 
 #### Example Response:
 [
     {
         "question": "What is BharatFD?",
-        "answer": "BharatFD is a company dedicated to providing top-notch financial services in India."
+        "answer": "BharatFD is a company dedicated to providing top notch FD services in India."
     },
     ...
 ]
@@ -133,7 +136,8 @@ curl http://localhost:8000/api/faqs/
 Fetch FAQs in Hindi.
 
 #### Example Request:
-curl http://localhost:8000/api/faqs/?lang=hi
+      ```bash
+      curl http://localhost:8000/api/faqs/?lang=hi
 
 ---
 
@@ -177,6 +181,20 @@ This project is open-source and available under the MIT License.
 
 So, what are you waiting for? Dive into this amazing FAQ Management System, explore the code, and see how I’ve tackled backend challenges with precision, speed, and scalability. I’m confident that this project will be a great addition to any team looking for someone who gets the job done and more. 😉
 
-Let’s connect – GitHub Profile
+Let’s connect!
+🚀
 
-Happy Coding! 🚀
+##SCREENSHOTS
+
+![Screenshot (77)](https://github.com/user-attachments/assets/99214719-b702-4b3d-a80c-11d495f44b73)
+![Screenshot 2025-02-02 185339](https://github.com/user-attachments/assets/ff12f05e-e258-402e-a2a4-6e97b8e1ffc1)
+![Screenshot 2025-02-02 201127](https://github.com/user-attachments/assets/cdc40eef-7d06-44fa-8f44-3345a906d17b)
+![Screenshot 2025-02-02 185545](https://github.com/user-attachments/assets/0108a7c2-d3c8-4b55-bb9e-d5bed44980bb)
+![Screenshot 2025-02-02 201323](https://github.com/user-attachments/assets/e8c67e4b-e241-4421-8c35-6c55460964d7)
+
+
+
+
+
+
+
